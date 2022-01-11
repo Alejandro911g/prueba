@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppDeGatos</title>
+  </head>
+
+  <body>
+
+    <h2>AppDeGatos</h2>
+    <main>
+      <h3>Imágenes de gatos</h3>
+      <!-- Todo: Agregar enlace a imágenes de gatos -->
+      <p>Haz click para ver mas <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">imagenes de gatos</a></p>
+
+
+      <a href="https://www.freecodecamp.org/espanol" target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/fcc-relaxing-cat" alt="Un gato naranja recostado sobre su espalda"></a>
+
+      <hr>
+
+      <h3>Listas de Gatos</h3>
+
+      <div>
+
+        <p>Cosas que los gatos <em>aman</em>:</p>
+
+        <ul>
+         <li>Menta gatuna</li>
+         <li>Apuntadores láser</li>
+         <li><s>Lasaña</s></li>
+       </ul>
+
+       <img src="imagenes/camion.jpeg" alt="camión">
+
+       <p>Cosas que los gatos <strong>odian</strong></p>
+
+       <ol>
+         <li>Tratamientos antipulgas</li>
+         <li>Truenos</li>
+         <li>Otros gatos</li>
+       </ol>
+
+      </div>
+
+     <img src="imagenes/camion 2.jpeg" alt="camión 2">
+
+     <form action="/enviar-respuesta">
+       <!-- Botones de radio  -->
+       <label for="interior">
+         <input id="interior" type="radio" value="interior" name="interior-exterior" checked>Interior
+      </label>
+
+       <br>
+
+       <label for="exterior">
+         <input id="exterior" type="radio" value="exterior" name="interior-exterior">Exterior
+        </label>
+
+       <br>
+       
+       <!-- Casillas de verificacion -->
+
+       <label for="carinoso"><input id="carinoso" type="checkbox" value="carinoso" name="personalidad" checked>Cariñoso</label>
+
+       <br>
+
+       <label for="perezoso">
+         <input id="perezoso" type="checkbox" value="perezoso" name="personalidad">Perezoso
+       </label>
+
+       <br>
+
+        <label for="energetico">
+          <input id="energetico" type="checkbox" value="energetico" name="personalidad">Enérgetico
+        </label>
+
+       <br>
+
+       <!-- Texto y boton enviar -->
+       <input type="text" placeholder="URL de la foto de tu gato" required>
+
+       <br>
+
+       <button type="submit">Enviar</button>
+     </form>
+
+    </main>
+
+    <footer>
+      <p><small>Sin derechos de autor - <a href="https://freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">freeCodeCamp.org</a></small></p>
+    </footer>
+
+  </body>
+</html>
